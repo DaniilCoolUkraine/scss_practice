@@ -47,9 +47,11 @@
       &__subheading {
             @include text(normal, 24px, 36px, 0.35px);
             color: $font-main;
+            margin-bottom: 20px;
       }
       &__description {
             @include text(normal, 18px, 26px, 0.84px);
+            color: rgba(0, 0, 0, 0.7);
             max-width: 310px;
             margin: 0 auto;
       }
@@ -89,5 +91,37 @@
             }
       }
       margin-bottom: 200px;
+}
+.care {
+      text-align: center;
+      &__heading {
+            text-align: center;
+            @include text(normal, 48px, 60px, 0.75px);
+            color: $font-main;
+            margin-bottom: 100px;
+      }
+      &__steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+            &-item {
+                  padding: 3px 7px;
+            }
+            margin-bottom: 273px;
+      }
+      &__text {
+            text-align: center;
+      }
+      &__subheading {
+            @include text(normal, 24px, 36px, 0.35px);
+            color: $font-main;
+            margin-bottom: 20px;
+      }
+      &__description {
+            @include text(normal, 18px, 26px, 0.84px);
+            color: rgba(0, 0, 0, 0.7);
+            max-width: 345px;
+            margin: 0 auto;
+      }
 }
 /*----------------------*/

@@ -178,7 +178,7 @@ h6 {
 .start__steps {
   display: -ms-grid;
   display: grid;
-  /* -ms-grid-columns: (1fr)[3]; */
+  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   margin-bottom: 273px;
@@ -198,6 +198,7 @@ h6 {
   line-height: 36px;
   letter-spacing: 0.35px;
   color: #0b4a72;
+  margin-bottom: 20px;
 }
 
 .start__description {
@@ -205,6 +206,7 @@ h6 {
   font-size: 18px;
   line-height: 26px;
   letter-spacing: 0.84px;
+  color: rgba(0, 0, 0, 0.7);
   max-width: 310px;
   margin: 0 auto;
 }
@@ -212,7 +214,7 @@ h6 {
 .start__lisa {
   display: -ms-grid;
   display: grid;
-  /* -ms-grid-columns: (1fr)[2]; */
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   gap: 65px;
 }
@@ -257,6 +259,56 @@ h6 {
   position: absolute;
   bottom: -9%;
   left: 33%;
+}
+
+.care {
+  text-align: center;
+}
+
+.care__heading {
+  text-align: center;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.75px;
+  color: #0b4a72;
+  margin-bottom: 100px;
+}
+
+.care__steps {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin-bottom: 273px;
+}
+
+.care__steps-item {
+  padding: 3px 7px;
+}
+
+.care__text {
+  text-align: center;
+}
+
+.care__subheading {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.35px;
+  color: #0b4a72;
+  margin-bottom: 20px;
+}
+
+.care__description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.84px;
+  color: rgba(0, 0, 0, 0.7);
+  max-width: 345px;
+  margin: 0 auto;
 }
 
 /*----------------------*/
