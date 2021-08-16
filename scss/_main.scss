@@ -1,0 +1,93 @@
+.banner {
+      background: $main;
+      padding-top: 200px;
+      &__heading {
+            max-width: 775px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            @include text(normal, 72px, 80px, 2.5px);
+            text-align: center;
+            color: $font-main;
+      }
+      &__bg {
+            text-align: center;
+            background-image: url('../img/bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            @include text(normal, 16px, 24px, 0.75px);
+            padding: 0 0 388px;
+      }
+      &__subheading {
+            max-width: 345px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+      }
+      margin-bottom: 140px;
+}
+.start {
+      text-align: center;
+      &__heading {
+            text-align: center;
+            @include text(normal, 48px, 60px, 0.75px);
+            color: $font-main;
+            margin-bottom: 100px;
+      }
+      &__steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+            &-item {
+                  padding: 3px 7px;
+            }
+            margin-bottom: 273px;
+      }
+      &__text {
+            text-align: center;
+      }
+      &__subheading {
+            @include text(normal, 24px, 36px, 0.35px);
+            color: $font-main;
+      }
+      &__description {
+            @include text(normal, 18px, 26px, 0.84px);
+            max-width: 310px;
+            margin: 0 auto;
+      }
+      &__lisa {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 65px;
+            &-text {
+                  padding: 50px 0;
+            }
+            &-heading {
+                  @include text(normal, 24px, 36px, 0.35px);
+                  color: #0b4a72;
+                  max-width: 424px;
+                  margin: 0 auto;
+                  margin-bottom: 40px;
+            }
+            &-subheading {
+                  @include text(normal, 13px, 28px, 0.44px);
+                  color: #868aa2;
+            }
+      }
+      &__video {
+            position: relative;
+            &-link {
+                  background-image: url('../img/lisa.jpg');
+                  background-position: 0 0;
+                  display: inline-block;
+                  height: 279px;
+                  width: 492px;
+            }
+            &-button {
+                  background: #ebf0f5 !important;
+                  position: absolute;
+                  bottom: -9%;
+                  left: 33%;
+            }
+      }
+      margin-bottom: 200px;
+}
+/*----------------------*/

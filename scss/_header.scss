@@ -1,0 +1,25 @@
+.header {
+      .wrapper {
+            padding: 28px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      }
+      &__menu {
+            background: url('../img/hamburger.svg');
+            height: 20px;
+            width: 24px;
+      }
+      &__nav {
+            @include text(normal, 18px, 18px, normal);
+            color: $font-main;
+      }
+      &__link {
+            margin-left: 43px;
+      }
+      &__link:first-child {
+            margin-left: 0;
+      }
+}
+
+/*----------------*/

@@ -1,0 +1,27 @@
+@import '_zero';
+@import '_variables';
+@import '_mixines';
+@import '_header';
+@import '_main';
+
+body {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+}
+.wrapper {
+      max-width: 1500px;
+      padding: 0 20px;
+      margin: 0 auto;
+}
+.button {
+      display: inline-block;
+      background: $button;
+      border-radius: 38px;
+      padding: 17px 30px;
+      @include text(normal, 16px, 24px, 0.75px);
+      color: $font-main !important;
+      img {
+            margin-left: 25px;
+            margin-top: 8px;
+      }
+}
