@@ -148,8 +148,6 @@
       margin-bottom: 240px;
 }
 .access {
-      .wrapper {
-      }
       &__heading {
             @include text(normal, $subheadings_size, 60px, 0.75px);
             color: $font-main;
