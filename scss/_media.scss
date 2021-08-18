@@ -1,0 +1,137 @@
+@media (max-width: 1045px) {
+      .heading {
+            font-size: 48px;
+      }
+      .subheading {
+            font-size: 32px;
+      }
+      .header {
+            &__nav {
+                  font-size: 15px;
+            }
+      }
+      .start__video-button {
+            bottom: 0%;
+            left: 26%;
+      }
+      .start {
+            margin-bottom: 130px;
+      }
+      .care {
+            margin-bottom: 150px;
+      }
+      .message {
+            margin-bottom: 150px;
+      }
+      .access {
+            &__heading {
+                  max-width: 610px;
+            }
+      }
+}
+@media (max-width: 935px) {
+      .start {
+            &__lisa {
+                  display: block;
+                  &-text {
+                        padding: 100px 0 10px;
+                  }
+            }
+            &__video-button {
+                  bottom: -9%;
+                  left: 37%;
+            }
+      }
+      .review {
+            .wrapper {
+                  display: block;
+            }
+      }
+      .message {
+            .wrapper {
+                  gap: 0;
+            }
+      }
+}
+@media (max-width: 665px) {
+      .start {
+            &__steps {
+                  display: block;
+            }
+      }
+      .care {
+            &__steps {
+                  display: block;
+            }
+      }
+      .message {
+            .wrapper {
+                  display: block;
+            }
+            &__img {
+                  text-align: center;
+            }
+      }
+}
+@media (max-width: 585px) {
+      .header {
+            &__logo {
+                  width: 20%;
+            }
+      }
+      .start {
+            &__video {
+                  &-link {
+                        width: 80%;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                  }
+                  &-button {
+                        bottom: 2%;
+                        left: 29%;
+                  }
+            }
+      }
+      .review {
+            &__img {
+                  img {
+                        width: 80%;
+                  }
+            }
+      }
+      .message {
+            &__img {
+                  img {
+                        width: 85%;
+                  }
+            }
+      }
+      .lower__pic:first-child {
+            width: 80%;
+      }
+}
+@media (max-width: 400px) {
+      .start__video-button {
+            bottom: 0%;
+            left: 17%;
+            img {
+                  margin-left: 0 !important;
+            }
+      }
+      .heading {
+            font-size: 32px;
+      }
+      .subheading {
+            font-size: 28px;
+      }
+      .start {
+            &__video {
+                  &-button {
+                        bottom: 4%;
+                        left: 9%;
+                  }
+            }
+      }
+}
+
+/*-----------------------------*/
